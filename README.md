@@ -19,6 +19,7 @@ This action builds a STM32CubeIde project
   with:
     project-path: 'application/targets/STM32'
     project-target: 'hexanode'
+    project-root: "path/to/git/repo"
 ```
 
 ### STM32 Cube IDE Versions

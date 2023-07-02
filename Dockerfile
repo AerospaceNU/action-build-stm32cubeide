@@ -16,6 +16,8 @@ RUN curl -L -o /tmp/erpcgen.zip https://github.com/EmbeddedRPC/erpc/releases/dow
     chmod a+x /usr/bin/erpcgen && \
     rm /tmp/erpcgen.zip
 
+RUN apt-get -y install git
+
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 

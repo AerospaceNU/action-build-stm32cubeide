@@ -14,3 +14,4 @@ runs:
   args:
     - ${{ inputs.project-path }}
     - ${{ inputs.project-target }}
+    - ${{ inputs.project-root }}
